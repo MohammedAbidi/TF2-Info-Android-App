@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Intents and Activities</string>
+    <string name="main_header">Please select a TF2 class to learn more about them</string>
+    <string name="return_button">Return</string>
+
+
+    <!-- Scout -->
+    <string name="scout_name">Scout</string>
+    <string name="scout_health">Health: 125</string>
+    <string name="scout_speed">Speed: 133%</string>
+    <string name="scout_1">Fastest member of the team with the smallest health.</string>
+    <string name="scout_2">Wields a shogun, pistol, and baseball bat; ideal for quick \"Hit and Run\" tactics.</string>
+    <string name="scout_3">Can double jump and capture objectives twice as fast.</string>
+
+    <!-- Soldier -->
+    <string name="soldier_name">Soldier</string>
+    <string name="soldier_health">Health: 200</string>
+    <string name="soldier_speed">Speed: 80%</string>
+    <string name="soldier_1">A tough and well-armed member of the team.</string>
+    <string name="soldier_2">Wields both a rocket launcher and a shotgun; capable for both offense and defense.</string>
+    <string name="soldier_3">Best known for \"rocket jumping\" (where you detonate a rocket under yourself to launch upward).</string>
+
+    <!-- Pyro -->
+    <string name="pyro_name">Pyro</string>
+    <string name="pyro_health">Health: 175</string>
+    <string name="pyro_speed">Speed: 100%</string>
+    <string name="pyro_1">Wields a shotgun and a flamethrower which can produce flames and airblasts.</string>
+    <string name="pyro_2">Flames set enemies on fire, which burns them over time and reduces their healing by 50%.</string>
+    <string name="pyro_3">Airblasts can push away enemies and reflect projectiles like rockets and grenades.</string>
+
+    <!-- Demoman -->
+    <string name="demoman_name">Demoman</string>
+    <string name="demoman_health">Health: 175</string>
+    <string name="demoman_speed">Speed: 93%</string>
+    <string name="demoman_1">Defensive trapper wielding both a grenade and sticky bomb launcher.</string>
+    <string name="demoman_2">Grenades can be launched at creative angles to demolish enemies while remaining safely out of sight.</string>
+    <string name="demoman_3">Sticky Bombs can launched and stuck to any surface, then be detonated all at once at any time.</string>
+
+    <!-- Heavy -->
+    <string name="heavy_name">Heavy</string>
+    <string name="heavy_health">Health: 300</string>
+    <string name="heavy_speed">Speed: 77%</string>
+    <string name="heavy_1">Toughest but slowest member of the team.</string>
+    <string name="heavy_2">Wields a heavy minigun which shreds enemies in seconds as well as some \"food\".</string>
+    <string name="heavy_3">\"Food\" builds up over time, and when full, can be used to heal himself or another teammate.</string>
+
+    <!-- Engineer -->
+    <string name="engineer_name">Engineer</string>
+    <string name="engineer_health">Health: 125</string>
+    <string name="engineer_speed">Speed: 100%</string>
+    <string name="engineer_1">Specializes in constructing and maintaining buildings rather than fighting at the front lines.</string>
+    <string name="engineer_2">Can build an auto turrent Sentry Gun, a health and ammo Dispenser, and entrance and exit Teleporters.</string>
+    <string name="engineer_3">Each building must be built, upgraded, and repaired by the engineer during gameplay.</string>
+
+    <!-- Medic -->
+    <string name="medic_name">Medic</string>
+    <string name="medic_health">Health: 150</string>
+    <string name="medic_speed">Speed: 107%</string>
+    <string name="medic_1">The primary healer of the team, wielding a Medigun to quickly heal teammates.</string>
+    <string name="medic_2">Teammates being healed at full health will have their health increased further up to 150% their base health.</string>
+    <string name="medic_3">While healing, medic slowly builds up an Uber meter which will make both the medic and patient invincible for 8 seconds when full.</string>
+
+    <!-- Sniper -->
+    <string name="sniper_name">Sniper</string>
+    <string name="sniper_health">Health: 125</string>
+    <string name="sniper_speed">Speed: 100%</string>
+    <string name="sniper_1">An effective class at long range, but weakens with proximity.</string>
+    <string name="sniper_2">Wields a Sniper Rifle which builds up charge when scoped, and loses all charge when unscoped.</string>
+    <string name="sniper_3">The longer the charge, the greater the damage. Headshots guarantee critical hits.</string>
+
+    <!-- Spy -->
+    <string name="spy_name">Spy</string>
+    <string name="spy_health">Health: 125</string>
+    <string name="spy_speed">Speed: 107%</string>
+    <string name="spy_1">Wields a knife, pistol, cloak, sapper, and disguise kit.</string>
+    <string name="spy_2">Can disguise himself as an enemy teammate, knife attack their back to instantly kill them,</string>
+    <string name="spy_3">cloak himself to be completely invisible, and sap the Engineer\'s buildings to disable and destroy them.</string>
+</resources>
