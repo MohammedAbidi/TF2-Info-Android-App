@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/label_ITV"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="@string/insert_label"/>
+
+    <TextView
+        android:id="@+id/first_ITV"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_ITV"
+        android:text="@string/first_name"/>
+
+    <EditText
+        android:id="@+id/first_IET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/first_ITV"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/first_ITV"
+        android:orientation="horizontal"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/last_ITV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_ITV"
+        android:layout_marginTop="50dp"
+        android:text="@string/last_name" />
+
+    <EditText
+        android:id="@+id/last_IET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/last_ITV"
+        android:layout_alignLeft="@+id/first_IET"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/last_ITV"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/email_ITV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_ITV"
+        android:layout_marginTop="50dp"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/email_IET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/email_ITV"
+        android:layout_alignLeft="@+id/last_IET"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/email_ITV"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/phone_ITV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_ITV"
+        android:layout_marginTop="50dp"
+        android:text="@string/phone_number" />
+
+    <EditText
+        android:id="@+id/phone_IET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/phone_ITV"
+        android:layout_alignLeft="@+id/email_IET"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/phone_ITV"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/add_IB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_ITV"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@+id/back_IB"
+        android:layout_alignParentLeft="true"
+        android:backgroundTint="@color/green"
+        android:onClick="insert"
+        android:text="@string/add"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/back_IB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_ITV"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/add_IB"
+        android:layout_alignBottom="@+id/add_IB"
+        android:backgroundTint="@color/purple_500"
+        android:onClick="goBack"
+        android:text="@string/back"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

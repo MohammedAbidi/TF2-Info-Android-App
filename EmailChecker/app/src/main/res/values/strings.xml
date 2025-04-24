@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Email Validator</string>
+    <string name="button_text">Verify</string>
+    <string name="text_default">Enter an email to check</string>
+    <string name="text_valid">VALID</string>
+    <string name="text_invalid">INVALID</string>
+    <string name="example_email">z1903083@students.niu.edu</string>
+</resources>

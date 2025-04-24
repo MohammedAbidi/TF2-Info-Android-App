@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chessboard</string>
+    <string name="pawn_symbol">P</string>
+    <string name="rook_symbol">R</string>
+    <string name="knight_symbol">N</string>
+    <string name="bishop_symbol">B</string>
+    <string name="queen_symbol">Q</string>
+    <string name="king_symbol">K</string>
+</resources>

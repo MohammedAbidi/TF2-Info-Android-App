@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SQ Lite and Contacts List</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+
+    <string name="search_label">Search By Email \-\-\> </string>
+    <string name="insert_label">Create a New Contact</string>
+    <string name="update_label">Edit an Existing Contact</string>
+
+    <string name="add">ADD</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="back">BACK</string>
+</resources>
